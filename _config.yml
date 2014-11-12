@@ -1,0 +1,15 @@
+# Site settings
+title: Blog for Pangr
+email: 460112136pr@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Talk is cheap. Show me the code.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.pangrong.com" # the base hostname & protocol for your site
+
+github_username:  pangr
+# Build settings
+markdown: kramdown
+
+# paging
+paginate: 5 # per page
+paginate_path: "blog/page:num" # paging format
